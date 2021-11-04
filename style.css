@@ -1,0 +1,157 @@
+.ramka{
+    position: center;
+    height: 600px;
+    width: 800px;
+    padding-top: 150px;
+}
+
+.container{
+    position: relative;
+    height: 390px;
+    width: 274px;
+    margin: 0 auto;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;      
+    user-select: none;
+    opacity: 0.8;
+}
+
+.upBg{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 121px;
+    background-color: rgba(145, 61, 145, 0.884);
+    color: rgba(145, 61, 145, 0.884);
+}
+
+.line2{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    width: 244px;
+    height: 50px;
+    text-align: end;
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+    -webkit-touch-callout: text; 
+    -webkit-user-select: text;   
+    -khtml-user-select: text;    
+    -moz-user-select: text;      
+    -ms-user-select: text;       
+    user-select: text;
+    overflow-y: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numberLine{
+    position: absolute;
+    top: 50px;
+    right: 16px;
+    width: 244px;
+    height: 60px;
+    text-align: end;
+    font-size: 45px;
+    color: rgb(245, 245, 245);
+    -webkit-touch-callout: text; 
+    -webkit-user-select: text;   
+    -khtml-user-select: text;    
+    -moz-user-select: text;      
+    -ms-user-select: text;       
+    user-select: text;
+    overflow-y: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.mainBg{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    height: 263px;
+    background-color: rgb(116, 99, 148);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.naeb {
+    background-color: rgb(116, 99, 148);
+}
+
+button{
+    width: 59.6px;
+    height: 45px;
+    border: none;
+    text-align: center;
+    line-height: 72px;
+    font-size: 20px;
+    margin-top: 3.7px;
+    margin-left: 4px;
+    line-height: 45px;
+    background-color: rgb(36, 11, 82);
+    color: white;
+}
+
+.minus{
+    background-color: rgb(79, 23, 105);
+}
+.umnozenie{
+    background-color: rgb(79, 23, 105);
+}
+.del{
+    background-color: rgb(79, 23, 105);
+}
+.proc{
+    background-color: rgb(79, 23, 105);
+}
+.ravno{
+    width: 59.6px;
+    height: 92px;
+}
+.plusmin{
+    background-color: rgb(79, 23, 105);
+}
+.delsim{
+    background-color: rgb(79, 23, 105);
+}
+
+.bigravno{
+    margin-right: 5px;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+
+.nol{
+    position: relative;
+    left: 0px;
+}
+
+.naeb{
+    width: 1px;
+    height: 1px;
+}
+
+.fill:hover{
+    box-shadow: none;
+}
+
+button#eq{
+    width: 60;
+    height: 92;
+    background-color: rgb(79, 23, 105);
+}
+
+button:hover{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+}
+
+button#eq:active{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+    background-color: yellowgreen;
+}
+button:active{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+    background-color: rgb(165, 165, 165);
+}
